@@ -36,8 +36,12 @@ body{
    float:right;
 }
 
-.tm-nav ul li{
-   display: inline-block;
+.tm-nav ul{
+   margin-bottom: 0px;
+}
+
+.tm-nav ul li{ 
+    display:in-line block;
 }
 .tm-nav ul li a{
     
@@ -51,5 +55,29 @@ body{
 .tm-nav ul li a:hover{
     color:#3e99ff;
     
-    
+    margin-bottom:30px;
+}
+
+/*2nd part code here*/
+
+p{
+    margin-bottom: :20px;
+}
+
+h1,h2,h3,h4,h5,h6{
+margin-bottom:10px;
+}
+
+ul,ol{
+    margin-left:20px;
+    margin-bottom:20px;
+}
+.tmconetent{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+.tm-article{
+    background:#fff;
+    padding: 30px;
 }
